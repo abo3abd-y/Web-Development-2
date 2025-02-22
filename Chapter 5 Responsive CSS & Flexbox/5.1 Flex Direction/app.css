@@ -1,0 +1,68 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+h1 {
+    text-align: center;
+}
+#container {
+    background-color: #003049;
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    border: 5px solid #003049;
+    display: flex;
+    /* flex-direction: row; */
+    /* default which is left to right */
+    /* flex-direction: row-reverse; */
+    /* right to left */
+    /* flex-direction: column; */
+    /* as you can see, they are not 200 by 200 and thats because height is 500 */
+    /* flex-direction: column-reverse; */
+    /* bottom to top */
+    flex-direction: row;
+    /* justify-content: flex-start; */
+    /* justify content tells us how the contnet is distributed on the axis we chose, this its all piled up */
+    /* justify-content: flex-end; */
+    /* piled up at the right end side */
+    /* justify-content: center; */
+    /* in the center */
+    /* justify-content: space-between; */
+    /* space distributed between boxes, but NOT the edges */
+    /* justify-content: space-around; */
+    /* space is distributed in all sides, even on both sides but it seems like between boxes like there is more space */
+    justify-content: space-evenly;
+    /* space is evened on both sides on all sides */
+    /* try this with different flex-direction to see the difference */
+    /* flex-wrap: wrap; */
+    /* our box supposed to filx 500 pixels and they are getting shrinked because they are 200 by 200, so wrap means they wrap around */
+    /* flex-wrap: wrap-reverse; */
+    /* so they you are row direction and you wrap, things go from top to bottom, but when wrap reverse in flex-wrap, they go from bottom to top */
+    /* flex-wrap: nowrap; */
+    /* default, nowrap */
+    /* wrap this dicattes direciton of cross axis if row and main axis if column */
+    justify-content: center;
+    /* align-items: end; */
+    /* align-items algins the content based on the cross axis just like how justify content ditrubutes axis on the main axis */
+    /* align-items: center; */
+    /* this aligns them in the center */
+    /* align-items: baseline; */
+    /* this only works where they are letters or words in the boxes and so that the letters are aligned in such a way that their baselines align together */
+    flex-wrap: wrap;
+    /* align-content: center; */
+    /* align-content manages or spreads content in the opposite axis, and this only works if you have flex wrap on which means when you have multiple lines or columns depending on how you set up flex direction */
+
+    
+}
+
+#container div {
+    /* width: 600px; */
+    /* use this for wrap and align-content */
+    width: 200px;
+    height: 200px;
+}
+
+/* div:nth-of-type(3) {
+    align-self: center;
+    /* this is exactly like align-items but works on individual items */
+/* } */ 
+

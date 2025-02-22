@@ -1,0 +1,41 @@
+<form action="/pp">
+    <p>
+        <label for="first_name">First Name</label>
+        <input type="text" name="first" id="first_name" required>
+
+        <label for="last_name">Last Name</label>
+        <input type="text" name="last" id="last_name" required>
+    </p>
+
+    <p>
+        <p>Select a Race</p>
+        
+        <input type="radio" id="race_selection" name="race" value="fun_run">
+        <label for="race_selection">Fun Run 5k</label>
+        <br>
+        <input type="radio" id="mar_selection" name="race" value="marathon">
+        <label for="mar_selection">Half Marathon</label>
+        <br>
+        <input type="radio" id="full_marathon" name="race" value="ful_marathon">
+        <label for="full_marathon">Full Marathon</label>
+    </p>
+
+    <p>
+        <label for="email">Email</label>
+        <input type="email" id="email">
+
+        <label for="password">Password</label>
+        <input type="password" id="password" required>
+    </p>
+
+    <p>
+        <label for="selection">Select Age Group</label>
+        <select name="res" id="selection">
+            <option value="under_18" selected>Under 18</option>
+            <option value="18-30">18-30</option>
+            <option value="30-50">30-50</option>
+            <option value="50+">50+</option>
+        </select>
+    </p>
+    <button>Register!</button>
+</form>

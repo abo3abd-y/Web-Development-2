@@ -1,0 +1,43 @@
+/* padding is whats between content and border */
+/* margin is spacing of border and outside content */
+body{
+    margin: 0px;
+    /* as you can see, now margin whatso ever */
+}
+h1 {
+    padding-left: 100px;
+    padding-top: 50px;
+    border: solid 10px blue;
+    margin-bottom: 0px;
+}
+#one{
+
+    border: dotted 10px red;
+    padding-bottom:10px ;
+    padding-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+
+}    
+#two{
+    border: solid 20px purple;
+    padding-top: 10px;
+    margin: 200px;
+    /* all sides just like border */
+
+
+}
+#three{
+    border: dotted 10px aqua;
+
+
+}
+
+button {
+    /* padding: 10px 20px; */
+    /* 10 top and button and 20 left and right */
+    padding: 20px;
+    /* around on all four sides */
+    /* padding: 5px 10px 10px 20px; */
+     /* top 5 right 10 button 10 and left 20 just like clockwork  */
+}

@@ -1,0 +1,65 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+h1 {
+    text-align: center;
+}
+#container {
+    background-color: #003049;
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    border: 5px solid #003049;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    
+}
+
+#container div {
+    width: 200px;
+    height: 200px;
+    flex-basis: 500px;
+}
+
+div:nth-of-type(1) {
+    flex-shrink: 3;
+    /* as you can see, when the flex basis is too back, this element will then shrink to allow other elemnents to get bigger */
+
+}
+div:nth-of-type(5) {
+    flex-grow: 2;
+    flex-shrink: 0;
+    /* this will never shrink */
+    /* default shrink is 1 */
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+    border: 5px solid black;
+    height: 500px;
+    display: flex;
+
+}
+main .sidebar{
+    background-color: purple;
+    flex: 1 2 300px;
+    /* flex is shortcut, but by itself, it is flex grow */
+    /* when two is present, it is flex-basis */
+    /* three arguments: flex-grow, flex-shrink, flex-basis */
+}
+
+main .maincontent {
+    background-color: greenyellow;
+    flex: 2 1 800px;
+    /* rememebr that flex basis is thte initial length of the box, and it can grow and shrink based on flex-grow and flex-shrink which they are 1 by default */
+
+}
+
+
+
+

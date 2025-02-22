@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Your random number is: <%= rand %></h1>
+    <!-- as you can see, we are using rand like a variable -->
+
+    <% if(rand % 2 === 0){ %>
+        <h2>That is an even number</h2>
+
+    <% } else{ %>
+        <h2>That is an odd number.</h2>
+    <% } %>
+    <!-- IF you want to have actualy js logic, you must use < with % in it with every js code you have -->
+</body>
+</html>

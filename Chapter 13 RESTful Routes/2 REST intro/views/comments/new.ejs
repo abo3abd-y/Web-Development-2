@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Make a new comment</h1>
+    <section></section>
+        <form action="/comments" method="post">
+            <!-- so this whole data will be sent to /comments -->
+            
+            <label for="username">Enter username:</label>
+            <input type="text" name="username" placeholder="username" id="username">
+            
+            <label for="comment">Comment text</label>
+            <br>
+            <textarea id="comment" name="comment"></textarea>
+            <button>Submit</button>
+   
+
+        </form>
+    </section>
+    <a href="/comments">Back to Index</a>
+    
+</body>
+</html>

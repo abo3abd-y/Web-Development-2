@@ -1,0 +1,39 @@
+h1{
+    text-align: center;
+    width: 50%;
+    /* font-weight: normal; */
+    font-weight: 700;
+    text-decoration:cyan underline wavy;
+    letter-spacing: 10px;
+    font-size: 50px;
+}
+
+p{
+    text-align: right;
+    font-weight: bold;
+    text-decoration: blue overline;
+    line-height: 2;
+    font-family: Verdana, Futura, Arial, fantasy;
+    /* line-height: 0.5; */
+
+}
+
+
+a {
+    text-decoration: none; 
+    /* no lime as you can see  */
+}
+
+/* as you can see, in text-align tells you where should the text be: right left, ,center, etc.
+    -width tells you how much should the text occupy the line before going to the next line
+    -font-weight determine the boldness of the text
+    -text-decoraton determine stuff like underline, overline, the color of that line, etc.
+    -line-height: the height between two lines
+    -letter-spacing: the distnace between two letters
+    - font-family: as you can see here, you could provide bunch of alternaitve families in case one of them are not available on your computer, it will pick the next option
+    
+     */
+
+
+
+

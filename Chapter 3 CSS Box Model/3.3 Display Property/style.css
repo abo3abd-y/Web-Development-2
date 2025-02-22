@@ -1,0 +1,34 @@
+h1 {
+    background-color: palegoldenrod;
+    border: solid 1px black;
+    display: inline;
+    /* display: none; */
+    /* what the above does is that it does not show the element at all even though it exists in html page */
+    
+}
+span {
+    display: block;
+}
+
+#stuff {
+    /* display: inline; */
+    width: 200px;
+    background-color: blue;
+    /* as you can see, width has not changed because width and stuff like that do not change in line */
+    padding: 50px;
+    /* padding is still not pushing other content away */
+    margin: 50px;
+    display: block;
+    /* but notice that block is changed */
+}
+
+div {
+    height: 200px;
+    width: 200px;
+    background-color: olivedrab;
+    border: 5px solid black;
+    display: inline-block;
+    /* as you can see, they are behaved as inline since they are sitting together in the same line, but they are block 
+    in the sense that width, ehight, etc. are respected here */
+    margin: 50px;
+}

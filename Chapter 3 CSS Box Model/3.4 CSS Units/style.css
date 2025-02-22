@@ -1,0 +1,62 @@
+html {
+    font-size: 30px;
+    /* this ties with rem */
+}
+
+section {
+    background-color: aqua;
+    width: 800px;
+    height: 800px;
+}
+
+div {
+    background-color: bisque;
+    width: 50%;
+    height: 50%;
+    /* this saying that we want div to be as half wide as the parent as and as half height as parent is and parent in this case is section */
+}
+h1 {
+    font-size: 40px;
+    border: 1px solid black;
+    line-height: 200%;
+    /* this means it is double the height of the font size */
+}
+
+h2 {
+    font-size: 2em;
+    /* twice the parent's font size shich is acrticle */
+    margin-left: 1em;
+    /* this means that the margin is as wide as the size of the current font */
+}
+article {
+    font-size: 50px;
+    /* you change this you change others */
+}
+
+p {
+    font-size: 0.6em;
+}
+
+button {
+    font-size: 1em;
+    padding: 0 1em;
+    border-radius: 0.5em;
+    background-color: greenyellow;
+}
+
+ul {
+    font-size: 1.5em;
+    /* this is because the inner ul is based on the parent font size, and the parent font size is based on section or whatever */
+}
+
+#spaget h2{
+    font-size: 3rem;
+    /* rem is based on the root, in this case hte document */
+}
+
+#spaget ul {
+    font-size: 0.8rem;
+    /* no snowballing effect */
+}
+
+/* so em is parent and rem is root */

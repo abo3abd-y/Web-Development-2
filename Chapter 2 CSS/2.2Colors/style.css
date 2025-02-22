@@ -1,0 +1,26 @@
+h2 {
+    color: red;
+    background-color: rgb(89, 151, 0);
+    /* background-color: plum; */
+
+}
+
+button {
+    /* color: magenta; */
+    background-color: cyan;
+    color: #5fcffc;
+}
+
+p {
+    color: bisque;
+    background: orange;
+}
+
+
+/* backgoround and background-color are different and will talk about them later */
+/* rgb stands for red, green, blue where 255 is the max and 0 is the minimum */
+
+/* hex follows the same red, green, blue thing but its formatted differently
+
+    numbers follow this pattern #ff0012 where the first two is red, second two is gren
+    and the third two is blue. it ranges from 00 to ff*/

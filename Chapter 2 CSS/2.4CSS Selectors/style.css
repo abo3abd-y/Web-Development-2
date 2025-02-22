@@ -1,0 +1,116 @@
+/* *{
+    color: pink;
+
+    
+}  
+
+the above should just change everthing */
+
+button {
+    font-size: 30px;
+    background-color: antiquewhite;
+}
+
+h2,h3 {
+    color:  slateblue;
+}
+
+/* we can combine to make things together */
+
+
+#login {
+    background-color: #1d3357;
+    color: white;
+}
+
+/* this is how id's work; id's are only used ONCE */
+
+.tag{
+    background-color: red;
+    color: white;
+    font-size: 16px;
+}
+
+/* this is how class is used; you can use it for multiple elements */
+
+li a {
+    text-decoration: red underline wavy;
+}
+
+/* what the above is saying that the descendent of a from li will be changed */
+
+p + h2 {
+    font-size: 20px;
+}
+
+/* this one is saying that the h2 immedietly after p will get changedd */
+
+div > p {
+    color: pink;
+}
+
+/* the above is saying anything that is direct descendent of p from div will be changed */
+
+input[type = "text"] {
+    color: aquamarine;
+}
+
+p[class = "fork"] {
+    color: blueviolet;
+}
+
+/* as you can see, we do things like that where type and classes can be considered inputs */
+
+/* p.post {
+
+} */
+
+/* this is better to do as you can see here */
+
+a[href *= "google"] {
+    color: magenta;
+}
+
+/* this basiically says any href in anchor tags that have the word google in them */
+
+
+a:hover {
+    color: teal;
+    text-decoration: overline blue;
+    font-weight: 700;
+}
+/* these are called psuedo classes. they start with :. For example, when hoevered, a changes to teal */
+
+button:active {
+    background-color: pink;
+}
+
+/* active is when you click on the button */
+
+a:nth-of-type(2) {
+    background-color: black;
+}
+
+/* every other a    */
+
+p::first-letter {
+    color: black;
+    font-size: 30px;
+}
+
+/* these are called pseudo classes and it says that the first element is colored black */
+
+p::selection {
+    background-color: beige !important;
+}
+
+/* so when you select stuff in p, they turn beige */
+
+/* ORDER MATTERS in CSS: when you change background color right at the end, that one will be applied and not the before */
+
+/* SPEFICITY: when two things are applying to the same thing (eg.color), the more specific will be applied
+    ID > CLASS > ELEMENT */
+
+
+
+/* important means this is very specific; not good practise */

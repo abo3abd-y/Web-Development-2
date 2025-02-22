@@ -1,0 +1,22 @@
+section {
+    width: 80%;
+    height: 800px;
+    background-image: url("https://creativegeniusacademy.ca/wp-content/uploads/2020/05/60054164_10161855083225644_2787141687263100928_o-1024x770.jpg");
+    background-size: cover;
+    /* shrink it as low as possible to fit in size */
+    /* background-size: contain; */
+    /* repeat image as many as possible to contain in the same page */
+    /* background-position: bottom; */
+    /* we start from the bottom of pick */
+
+    /* background: no-repeat url("https://creativegeniusacademy.ca/wp-content/uploads/2020/05/60054164_10161855083225644_2787141687263100928_o-1024x770.jpg") center/cover; */
+    /*  do it all in one */
+    /* background:center/40% no-repeat url("https://creativegeniusacademy.ca/wp-content/uploads/2020/05/60054164_10161855083225644_2787141687263100928_o-1024x770.jpg"); */
+    /* divide it to 40 pics but then no repeat */
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 100px;
+    color: white;
+}

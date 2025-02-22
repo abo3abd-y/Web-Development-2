@@ -1,0 +1,154 @@
+<form action="/tacos">
+    <p>
+    <label for="username">Enter a username </label>
+    <input type="text" id="username" placeholder="username" name="username">
+    </p>
+    
+    <p>
+        <label for="password">Enter a password</label>
+        <input type="password" placeholder="password" id="password">
+    </p>
+
+    <p>
+        <label for="color">Enter color</label>
+        <input type="color" id="color">
+    </p>
+
+    <p>
+        <label for="number">Enter a number</label>
+        <input type="number" id="number">
+    </p>
+
+    <p>
+        <label for="text">Enter label</label>
+        <input type="text" id="label" placeholder="Enter label">
+    </p>
+
+    <button type="button">Submit</button>
+    <button>press me</button>
+    
+
+</form>
+
+<button>This is button that does nothing because it is outside form</button>
+<!-- form is a container that that will be used for input like username and password -->
+
+<!-- action is where data will be sent when form is submitted. It specifies where data should be sent -->
+
+<!-- input is what goes inside the form -->
+
+<!-- type obviously specifies the type of text -->
+
+<!-- placeholder is used for username and password and other inputs that acts as placeholder until a user inputs something -->
+
+<h1>bb</h1>
+
+<!-- labels are good to have a like a text or something  that is associated wth an input-->
+
+<!-- for them both to be connected, label's for value should be the same as input's id value -->
+
+
+<!-- as you can see, the button submits the form based on the action thing -->
+
+<!-- as you can see, when i specified the type as button, it does not make it submit the form and rather just acts like a useless button -->
+
+<!-- as you can see, in inputs, when you have name = "", when you for example input your username, it will be saved in the name "variable" as you can see here when i press the button after inputting some stuff in the user name box
+ 
+         http://127.0.0.1:3000/tacos?username=dwedwefew       -->
+
+<h1>Hijacking search</h1>
+
+<form action="https://www.reddit.com/search">
+    <input type="text" name="q">
+    <button>Redddit</button>
+</form>
+<!-- as you can see, we can even search things in other websites if we change the action to the url that we want access to -->
+<!-- and if we change the name of the input to the be the exact name of that websites input -->
+
+
+<form action="https://www.youtube.com/results">
+    <input type="text" name="search_query">
+    <button>Youtube</button>
+</form>
+
+<!-- pretty cool. As you can see, when you press the button, in the same url u provided in  action, it will ? right after it and the name equal to the input you put-->
+
+<h2>More inputs</h2>
+
+<form action="/ko">
+
+    <input type="checkbox" name="agree" id="agree" checked>
+    <label for="agree">I agree to everything</label>
+    <button>Submit</button>
+    <p>
+
+        <label for="s">small</label>
+        <input type="radio" name="size" id="s" value="sss">
+        <label for="m">medium</label>
+        <input type="radio" name="size" id="m" value="mmm">
+        <label for="l">large</label>
+        <input type="radio" name="size" id="l" value="lll">
+    
+    </p>
+
+    <p>
+        <label for="meal"></label>
+        <select name="select_val" id="meal">
+            <option value="fish" selected>Fish</option>
+            <option value="Meat">Meat</option>
+            <option value="Vegetarian">Vegetarian</option>
+        </select>
+    </p>
+
+    <p>
+        <label for="cheese"> Cheese level</label>
+        <input type="range" id="cheese" min="1" max="10" name="cheese_level">
+    </p>
+
+    <p>
+        <label for="nn"> Number input</label>
+        <input type="number" min="1" max="10" id="nn" name="number_xx">
+    </p>
+
+    <p>
+        <label for="requests">Any special remarks:</label>
+        <br>
+        <textarea name="holder" id="requests" rows="10" cols="40" placeholder="Type something here"></textarea>
+    </p>
+    <button>Submit</button>
+</form>
+
+<!-- buttons is above as you can see here -->
+
+<!-- also, as you can see, we have the multiple choice thing here where you can pick one -->
+
+<!-- also, now we have value in the input for the radio because when you hit submit, it now shows in the url which value you chose -->
+
+<!-- so, value will be the thing that will be sent through when you hit submit -->
+
+<!-- as you can see, for the drop out  thing, we will need select given the name which is ofc a variable containing the value -->
+
+<!-- containg the value of whatever the user chose. The select also has options and each option has a value which will be sent to be assigned the name of select when you hit submit -->
+
+<!-- we also have the range thing which is what we have here -->
+
+<!-- as you can see, there is also the textarea where you can determine size of the textarea with rows and cols -->
+
+
+<h1>break here</h1>
+
+<form action="dummy">
+    <label for="first">Enter first name</label>
+    <input type="text" name="first" id="first" required>
+
+    <p>
+        <label for="user">Username</label>
+        <input type="text" id="username" name="username" minlength="5" maxlength="20" required>
+    </p>
+
+    <p>
+        <!-- <input type="email">
+        <input type="url"> -->
+    </p>
+    <button>Click here</button>
+</form>

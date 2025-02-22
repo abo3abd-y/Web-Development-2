@@ -1,0 +1,12 @@
+body {
+    color: purple;
+}
+h1 {
+    color: blue;
+}
+
+/* as you can see, in the body, everything got purple, but when you specifically say h2 is blue, then it does that */
+
+section {
+    color: teal;
+}

@@ -1,0 +1,41 @@
+div {
+    width: 200px;
+    height: 300px;
+    background-color: aqua;
+}
+
+h1 {
+    background-color: pink;
+}
+
+#one {
+    background-color: blue;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    /* box-sizing: border-box; */
+    /* this just means that the border will take from the actual border */
+}
+
+#two {
+    background-color: azure;
+
+    border-color: blue;
+    border-style: dashed;
+    border-width: 5px;
+    border-left-color: red;
+}
+
+#three {
+    background-color: blueviolet;
+    border: 5px dotted black;
+    border-left-style: solid;
+    border-radius: 50%;
+    /* you can do this all in one go: width, style, color */
+    /* as you can see, border radius can do a lot of things here */
+}
+
+#four {
+    background-color: bisque;
+    
+}
